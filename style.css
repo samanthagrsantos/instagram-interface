@@ -26,9 +26,9 @@ body {
 }
 
 .instagram-phone {
-    display: flex; 
-    align-items: center; /* horizontal-eixo original */
-    justify-content: center; /* vertical-eixo original */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 50%;
 }
 
@@ -38,9 +38,9 @@ body {
 
 .instagram-continue {
     display: flex;
-    align-items: center; /* horizontal-eixo invertido */
-    justify-content: space-around; /* vertical-eixo invertido */
-    flex-direction: column; /* responsavel pela mudanca dos eixos do align-items e do justify-content */
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
+    flex-direction: column;
     width: 50%;
     min-height: 34rem;
 }
@@ -120,11 +120,11 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/apple-button.png');
+    background-image: url('img/apple-button.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/googleplay-button.png');
+    background-image: url('img/googleplay-button.png');
 }
 
 /* media queries */
